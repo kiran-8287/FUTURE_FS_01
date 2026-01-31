@@ -1,73 +1,104 @@
-# React + TypeScript + Vite
+# ⚡ Sai Kiran Vullengala
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="src/assets/profile/profile.jpg" alt="Sai Kiran Vullengala" width="150" height="150" style="border-radius: 50%; border: 4px solid #fff; box-shadow: 0 0 20px rgba(0,0,0,0.1);" />
 
-Currently, two official plugins are available:
+  <h2 align="center">Data Science Student | Full Stack Developer | Problem Solver</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    Building scalable solutions at the intersection of data and code.
+    <br />
+    <a href="https://your-portfolio-url.com"><strong>Explore the Portfolio »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/kiran-8287">GitHub</a>
+    ·
+    <a href="https://www.linkedin.com/in/saikiran-vullengala">LinkedIn</a>
+    ·
+    <a href="mailto:saikiranvullengala@gmail.com">Email</a>
+  </p>
+</div>
 
-## React Compiler
+<hr />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 About Me
 
-## Expanding the ESLint configuration
+I am a Data Science student at the **Indian Institute of Technology Palakkad** with a strong passion for building scalable software solutions. My expertise spans from crafting intuitive full-stack web applications to implementing complex algorithms in C++ and Python.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔭 I’m currently working on **AI integration and high-performance system architecture.**
+- 🌱 I’m currently learning **Advanced Data Science & Machine Learning.**
+- 💻 Tech Stack: **React, Node.js, TypeScript, C++, Python, Tailwind CSS.**
+- 🎓 Education: **B.Tech in Data Science @ IIT Palakkad.**
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,nodejs,python,cpp,html,css,git,vscode,github" alt="Tech Stack" />
+</div>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🎨 Features
+
+- **Modern UI/UX**: Built with React & Tailwind CSS for a sleek, responsive design.
+- **Glassmorphism**: Elegant frosted glass effects across the interface.
+- **Interactive Elements**:
+  - Custom themed cursor
+  - Magnetic buttons
+  - Bento grid layouts with hover effects
+  - 3D interactive elements
+- **Theme Awareness**: Seamless dark/light mode switching with persistent preferences.
+- **Animations**: Smooth scroll reveals, text typing effects, and page transitions using Framer Motion.
+- **Performance**: Optimized with Vite for lightning-fast HMR and build times.
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/          # Images, logos, and static files
+├── components/      # Reusable React components (Hero, Navbar, etc.)
+├── data/            # Structured data (Projects, Experience, Skills)
+├── hooks/           # Custom hooks (useTheme, etc.)
+└── index.css        # Global styles & Tailwind directives
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚡ Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Node.js (v18+ recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/kiran-8287/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📸 Portfolio Preview
+
+*(Add screenshots of your portfolio sections here to showcase the design)*
+
+## 🤝 Contact
+
+**Sai Kiran Vullengala**
+
+- **Email**: [saikiranvullengala@gmail.com](mailto:saikiranvullengala@gmail.com)
+- **LinkedIn**: [linkedin.com/in/saikiran-vullengala](https://www.linkedin.com/in/saikiran-vullengala)
+- **GitHub**: [github.com/kiran-8287](https://github.com/kiran-8287)
+
+---
+
+<div align="center">
+  Made with ❤️ by Sai Kiran using React & Tailwind
+</div>
