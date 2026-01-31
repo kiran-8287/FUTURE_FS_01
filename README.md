@@ -85,6 +85,23 @@ src/
    npm run dev
    ```
 
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Install Vercel CLI: `npm i -g vercel`
+2. Run `vercel login`
+3. Run `vercel` inside the project folder
+4. Follow the prompts!
+
+### Netlify
+1. Drag and drop the `dist/` folder (created after `npm run build`) into the Netlify dashboard.
+2. Or connect your GitHub repository for automatic deployments.
+
 ## 📸 Portfolio Preview
 
 *(Add screenshots of your portfolio sections here to showcase the design)*
